@@ -4,7 +4,7 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.NavController
 
 @Composable
-fun ShouldShowBottomNavigation(navController: NavController) = when (CurrentRoute(navController)) {
+fun shouldShowBottomNavigation(navController: NavController) = when (currentRoute(navController)) {
     NavBarScreen.Home.route,
     NavBarScreen.Account.route,
     NavBarScreen.MyCards.route,

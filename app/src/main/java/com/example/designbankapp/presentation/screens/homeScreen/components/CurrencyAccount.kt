@@ -21,8 +21,6 @@ import androidx.compose.ui.unit.sp
 import com.example.designbankapp.R
 import com.example.designbankapp.presentation.theme.neutral800
 import com.example.designbankapp.utils.currencyBalance
-import java.text.DecimalFormat
-
 
 @Composable
 fun CurrencyAccount() {
